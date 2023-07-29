@@ -1,0 +1,63 @@
+.wrapper {
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    border-radius: 4px;
+}
+
+tr > td{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-button{
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+
+.form-button:hover{
+    background: white;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+label {
+    display: inline-block;
+    width: 15vw;
+    float: left;
+    text-align: right;
+}
+
+.add-flower{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.add-flower>form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+}

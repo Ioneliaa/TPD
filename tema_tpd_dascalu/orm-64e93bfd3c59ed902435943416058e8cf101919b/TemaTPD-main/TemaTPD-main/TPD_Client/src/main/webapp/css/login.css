@@ -1,0 +1,47 @@
+.wrapper {
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+tr > td{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    width: 8vw;
+    float: left;
+    text-align: right;
+}
+
+.title{
+    font-family: "JetBrains Mono", monospace;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.form-button{
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+
+.form-button:hover{
+    background: white;
+    color: black;
+}
